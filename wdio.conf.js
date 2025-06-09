@@ -43,6 +43,9 @@ export const config = {
         ],
         search: [
             './test/specs/ui/regression/movieSearch.spec.mjs'
+        ],
+        movieDetails: [
+            './test/specs/ui/regression/movieDetails.spec.mjs'
         ]
 
     },
