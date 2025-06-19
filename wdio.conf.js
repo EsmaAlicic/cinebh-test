@@ -46,7 +46,10 @@ export const config = {
         ],
         movieDetails: [
             './test/specs/ui/regression/movieDetails.spec.mjs'
-        ]
+        ],
+        venue: [
+            './test/specs/api/smoke/venue.spec.mjs'
+        ],
 
     },
     maxInstances: 10,
