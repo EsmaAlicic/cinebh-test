@@ -1,7 +1,7 @@
 import SignInPage from '../../../pageobjects/SignIn.js';
 
 describe('Sign In Test', () => {
-    it('should sign in successfully', async () => {
+    it('Should sign in successfully', async () => {
         await browser.url('/');
 
         await SignInPage.clickSignInTrigger();

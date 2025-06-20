@@ -1,7 +1,7 @@
 import Search from '../../../pageobjects/Search.js';
 
 describe('Search Movies Test for default keyword', () => {
-    it(`should return movies with titles containing keyword`, async () => {
+    it(`Should return movies with titles containing keyword`, async () => {
         await browser.url('/');
 
         await Search.openCurrentlyShowing();
