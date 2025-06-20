@@ -50,6 +50,12 @@ export const config = {
         venue: [
             './test/specs/api/smoke/venue.spec.mjs'
         ],
+        movies: [
+            './test/specs/api/smoke/movies.spec.mjs'
+        ],
+        projection: [
+            './test/specs/api/regression/movies.spec.mjs'
+        ],
 
     },
     maxInstances: 10,
